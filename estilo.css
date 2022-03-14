@@ -1,0 +1,157 @@
+body{
+    background: #f5f5f5;
+    align-items: center;
+
+  
+}
+header{
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 10%;
+    z-index: 999px;
+
+    box-shadow: 5px 5px 5px 5px rgba(19, 18, 18, 0.308);
+    background: #292929;
+    text-align: left;
+    
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+.container{
+    
+   background: #ffffff;
+   border-radius: 10px 50px 10px 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgba(32, 32, 32, 0.747);
+   box-shadow: 15px 2px 15px 2px    rgba(19, 18, 18, 0.308);
+  
+
+   margin: 150px;
+   padding: 2%;
+   text-align: center;
+   
+  
+  
+   max-width: 800px ;
+   max-height: 700px;
+   min-width: 300px ;
+   min-height: 800px;
+   margin-top: 150px;
+
+   justify-content: center;
+   align-content: center;
+
+  
+
+  
+   /*
+    width: 80%;
+   height: 50%px;
+   width: 600px;
+   height: 700px;
+   position: flex;
+   bottom: 0;
+   right: 0;
+   left: 10;
+   top: 0;
+
+    max-width: 800px ;
+   max-height: 700px;
+   min-width: 300px ;
+   min-height: 800px;
+   */
+  
+}
+
+.titulo{
+    text-align: center;
+    margin: 10px;
+}
+
+.texto{
+    text-align: center;
+    margin: 10px;
+}
+
+.nome{
+    border-radius: 0px 12px 0px 12px;
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+
+}
+
+.sobrenome{
+    border-radius: 0px 12px 0px 12px;
+    /*width: 180px;
+    height: 25px;
+    */
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+    
+}
+
+.idade{
+    border-radius: 0px 12px 0px 12px;
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+}
+
+.email{
+    border-radius: 0px 12px 0px 12px;
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+}
+.confirme_o_email{
+    border-radius: 0px 12px 0px 12px;
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+}
+
+.senha{
+    border-radius: 0px 12px 0px 12px;
+    width: 60%;
+    height: 30px;
+    border-color: #585755;
+}
+
+
+.confirmar{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    background: #a8bff1;
+    border-color: #eaffff;
+}
+
+
+footer{
+  box-shadow: 5px 5px 5px 5px rgba(19, 18, 18, 0.308);
+  background: #292929;
+  position: absolute;
+  padding: 10px 10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  
+
+  
+}
